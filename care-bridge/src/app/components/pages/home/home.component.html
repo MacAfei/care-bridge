@@ -1,0 +1,59 @@
+<!-- Hero Section -->
+<div class="relative bg-orange-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="relative z-10 pb-8 bg-orange-50 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                <div class="sm:text-center lg:text-left">
+                    <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                        <span class="block xl:inline">Share your love with</span>
+                        <span class="block text-orange-500 xl:inline"> those who need it most</span>
+                    </h1>
+                    <p
+                        class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                        CareBridge connects you with elderly individuals who need support. Whether it's a meal,
+                        medicine, or just a conversation, your small gesture can make a big difference.
+                    </p>
+                    <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                            <a routerLink="." fragment="support-types"
+                                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600 md:py-4 md:text-lg md:px-10 transition-colors cursor-pointer">
+                                Start Helping
+                            </a>
+                        </div>
+                        <div class="mt-3 sm:mt-0 sm:ml-3">
+                            <a routerLink="/about"
+                                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-orange-700 bg-orange-100 hover:bg-orange-200 md:py-4 md:text-lg md:px-10 transition-colors">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+            src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=2670&auto=format&fit=crop"
+            alt="Elderly person smiling">
+    </div>
+</div>
+
+<!-- Support Types Section -->
+<div id="support-types" class="bg-gray-50 py-12 sm:py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-base text-orange-600 font-semibold tracking-wide uppercase">Ways to Help</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Choose a Cause to Support
+            </p>
+            <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                Every contribution helps improve the quality of life for our seniors. Select a category below to get
+                started.
+            </p>
+        </div>
+
+        <div class="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <app-support-card *ngFor="let type of supportTypes" [supportType]="type"></app-support-card>
+        </div>
+    </div>
+</div>

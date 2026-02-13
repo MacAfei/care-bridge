@@ -1,0 +1,26 @@
+<div
+    class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col h-full border border-gray-100">
+    <div class="h-48 w-full overflow-hidden relative">
+        <img [src]="supportType.image" [alt]="supportType.title"
+            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500">
+        <div class="absolute top-0 right-0 m-4 bg-white/90 p-2 rounded-full shadow-sm text-orange-500">
+            <!-- Icon placeholder as text or primitive icon if needed, or actual icon logic -->
+            <span class="text-xl font-bold" *ngIf="false">{{supportType.icon}}</span>
+            <!-- Kept hidden for now or replace with icon lib -->
+            <!-- Simple SVG fallback based on 'icon' name could go here, or just omit for simplicity -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+        </div>
+    </div>
+    <div class="p-6 flex flex-col flex-grow">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">{{supportType.title}}</h3>
+        <p class="text-gray-600 mb-4 flex-grow">{{supportType.description}}</p>
+        <a [routerLink]="['/support', supportType.id]"
+            class="block w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors">
+            Support Now
+        </a>
+    </div>
+</div>

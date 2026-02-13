@@ -1,0 +1,17 @@
+- Building...
+
+Application bundle generation failed. [5.354 seconds]
+
+X [ERROR] NG5002: Incomplete block "carebridge". If you meant to write the @ character, you should use the "&#64;" HTML entity instead. [plugin angular-compiler]
+
+    src/app/components/layout/footer/footer.component.html:23:58:
+      23 │ ...     <p class="text-gray-300 text-sm mb-2">help@carebridge.org</p>
+         ╵                                                   ~~~~~~~~~~~
+
+  Error occurs in the template of component FooterComponent.
+
+    src/app/components/layout/footer/footer.component.ts:8:15:
+      8 │   templateUrl: './footer.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
