@@ -2,28 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# care-bridge 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: THINK
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Jafna VA – Ilahia College of Engineering and Technology
+* Member 2: Hadiya Anil – Ilahia College of Engineering and Technology
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Oru Care Bridge is a website that connects users with old age homes to provide support in various forms such as physical help, medical assistance, food support, emotional and social care, and daily needs. The platform allows users to search for the type of help they can offer and directly support the elderly in need.
 
 ### The Problem statement
-[What problem are you solving?]
+Many old age homes lack sufficient resources and volunteers to support the daily needs and well-being of the elderly. Users who want to help often don’t know how to contribute effectively.
 
 ### The Solution
-[How are you solving it?]
-
+Oru Care Bridge provides a centralized platform where users can choose how to help—whether through physical assistance, medical support, food donations, social engagement, or providing clothes and daily essentials. This makes volunteering easy, transparent, and impactful.
 ---
 
 ## Technical Details
@@ -31,17 +30,9 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
+- Languages used:HTML,CSS
 - Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
 - Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
