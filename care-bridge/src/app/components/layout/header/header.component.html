@@ -19,10 +19,7 @@
                         class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium">
                         About
                     </a>
-                    <a routerLink="/support-types" routerLinkActive="border-orange-500 text-gray-900"
-                        class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium">
-                        Support Types
-                    </a>
+
                     <a routerLink="/contact" routerLinkActive="border-orange-500 text-gray-900"
                         class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium">
                         Contact
@@ -30,8 +27,8 @@
                 </div>
             </div>
             <div class="hidden sm:ml-6 sm:flex sm:items-center">
-                <a routerLink="/support-types"
-                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-sm">
+                <a routerLink="/" fragment="support-types"
+                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-sm cursor-pointer">
                     Donate / Volunteer
                 </a>
             </div>
@@ -67,9 +64,7 @@
                 class="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Home</a>
             <a routerLink="/details" (click)="closeMobileMenu()"
                 class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Details</a>
-            <a routerLink="/support-types" (click)="closeMobileMenu()"
-                class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Support
-                Types</a>
+
             <a routerLink="/contact" (click)="closeMobileMenu()"
                 class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Contact</a>
         </div>
