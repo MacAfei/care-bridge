@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/care-bridge"
+  publish = "dist/care-bridge/browser"
   command = "ng build"
 
 [[redirects]]
