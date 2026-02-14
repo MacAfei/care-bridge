@@ -76,7 +76,7 @@ List the key features of your project:
 ![Screenshot](home.png./Screenshot 2026-02-14 100743.png)
 home page
 
-![Screenshot](about.png./)
+![Screenshot](about.png./Screenshot 2026-02-14 094621.png)
 about page
 
 ![Screenshot](contact.png./)
