@@ -73,13 +73,13 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-C:\Users\baase\Pictures\Screenshots\Screenshot 2026-02-14 011559.png
+![Screenshot](home.png)
 home page
 
-C:\Users\baase\Pictures\Screenshots\Screenshot 2026-02-14 094557.png
+![Screenshot](about.png)
 about page
 
-C:\Users\baase\Pictures\Screenshots\Screenshot 2026-02-14 094621.png
+![Screenshot](contact.png)
 contact page
 
 #### Diagrams
