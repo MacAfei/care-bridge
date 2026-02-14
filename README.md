@@ -13,8 +13,7 @@
 * Member 2: Hadiya Anil – Ilahia College of Engineering and Technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
-
+https://care-bridge-topaz.vercel.app/
 ### Project Description
 Oru Care Bridge is a website that connects users with old age homes to provide support in various forms such as physical help, medical assistance, food support, emotional and social care, and daily needs. The platform allows users to search for the type of help they can offer and directly support the elderly in need.
 
@@ -74,14 +73,14 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+C:\Users\baase\Pictures\Screenshots\Screenshot 2026-02-14 011559.png
+home page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+C:\Users\baase\Pictures\Screenshots\Screenshot 2026-02-14 094557.png
+about page
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+C:\Users\baase\Pictures\Screenshots\Screenshot 2026-02-14 094621.png
+contact page
 
 #### Diagrams
 
