@@ -73,13 +73,19 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot](home.png./Screenshot 2026-02-14 100743.png)
+![Screenshot]
+<img src="./Screenshot 2026-02-14 100743.png" alt="Project Banner" width="100%">
+(./Screenshot 2026-02-14 100743.png)
 home page
 
-![Screenshot](about.png./Screenshot 2026-02-14 094621.png)
+![Screenshot]
+<img src="./Screenshot 2026-02-14 094557.png" alt="Project Banner" width="100%">
+(./Screenshot 2026-02-14 094557.png)
 about page
 
-![Screenshot](contact.png./)
+![Screenshot]
+<img src="./Screenshot 2026-02-14 094621.png" alt="Project Banner" width="100%">
+(./Screenshot 2026-02-14 094621.png)
 contact page
 
 #### Diagrams
